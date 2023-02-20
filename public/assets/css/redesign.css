@@ -1,0 +1,128 @@
+
+/* new css */
+.btn.btn-learn-more{
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #4C12A1;
+    font-weight: 700;
+  }
+.gradient-hero-header{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg/gradient-bg-hero.png);
+    background-size: contain;
+    /* height: 747px !important; */
+    position: static;
+    width: 100% !important;
+    top: 0;
+    
+}
+.container-fluid {
+    padding-left: 50px;
+}
+.header__logo{
+    padding: 0 !important;
+}
+.service-hero-text{
+    margin-bottom: 0px;
+}
+.resolutions-hero-space {
+    align-items:flex-start;
+    -webkit-box-align:start;
+    -webkit-align-items: start;
+    -ms-flex-align:start;
+}
+.service-hero-text{
+    padding-top: 220px;
+}
+/* .service-hero-text h2{
+    position: absolute !important;
+    background-color: red !important;
+    top: 0 !important;
+    left: 0 !important;
+} */
+.btn-contact{
+    background-color: #4C12A1 !important;
+    border-radius: 14px;
+    border: none;
+}
+.btn-contact:hover {
+    background-color: #4C12A1 !important;
+    border: nones;
+}
+.container-fluid.awards-container{
+    padding-right:70px;
+    padding-left:70px;
+}
+.wraper-img-bg{
+    height:750px;
+}
+.img-awards{
+    margin-left: 10em;
+}
+.bg-content-right-user{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg/bg-right-arrow-about.png);
+    background-size: cover;
+    width: 100%;
+}
+.content-about-right {
+    height: 500px;
+}
+.bg-content-left-mobile{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg/bg-left-about.png);
+    background-size:90% 100%;   
+}
+.content-wrapper-activity {
+    height: 600px;
+}
+.bg-fraud-content{
+    background-repeat: no-repeat;
+    background-image: url(../images/bg/bg-content-fraud.png);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 5em;
+    margin-top: 3em;
+    
+}
+.content-about-right-fraud {
+    height: 600px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .gradient-hero-header{
+        max-height: 600px !important;
+        /* transform: scale(.5); */
+    }
+
+    .service-hero-text{
+        padding-top: 200px !important;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .gradient-hero-header{
+        background-size: cover;
+        max-height: 1500px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service-hero-text h2 {
+        font-size: 32pt !important;
+    }
+}
+/* 
+
+
+@media screen and (max-width: 940px) {
+    .gradient-hero-header{
+        max-height: 760px !important;
+    }
+}
+
+
+} */
